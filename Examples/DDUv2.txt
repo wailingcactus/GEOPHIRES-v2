@@ -1,0 +1,74 @@
+GEOPHIRES v2.0 Input File
+Created on 6/11/2018
+Last modified on 6/12/2018
+Geothermal Heat Problem using a Multiple Parallel Fractures Model
+
+Example 1 Description: This problem considers an EGS reservoir at 3km depth. 
+Ramey's model is applied to simulate production wellbore heat losses. The heat
+is used in for electricity application with a reinjection temperature of 50deg.C.
+
+
+***Subsurface technical parameters***
+*************************************
+Reservoir Model,2,                        			---Multiple Fractures reservoir model
+Reservoir Depth,2.3,                     			---[km]
+Number of Segments,1,                  				---[-]
+Gradient 1,30,                          			---[deg.C/km]
+Maximum Temperature,400,                  			---[deg.C]
+Number of Production Wells,1,            			---[-]
+Number of Injection Wells,1,            			---[-]
+Production Well Diameter,7,		     			---[inch]
+Injection Well Diameter,7,					---[inch]
+Ramey Production Wellbore Model,1,       			---0 if disabled, 1 if enabled
+Production Wellbore Temperature Drop,.5,			---[deg.C]
+Injection Wellbore Temperature Gain,0,   			---[deg.C]
+Production Flow Rate per Well,50,       			---[kg/s]
+Fracture Shape,3,                       			---[-] Should be 1,2,3 or 4. See manual for details
+Fracture Height,900, 						---[m]
+Reservoir Volume Option,3,              			---[-] Should be 1,2,3 or 4. See manual for details
+Number of Fractures,20,		  				---[-]
+Reservoir Volume,1000000000,		 			---[m^3]
+Water Loss Fraction,.02,					---[-]
+Productivity Index,5,						---[kg/s/bar]
+Injectivity Index,5,						---[kg/s/bar]
+Injection Temperature,50,		 			---[deg.C]
+Maximum Drawdown,1,			  			---[-] no redrilling considered
+Reservoir Heat Capacity,1000,		  			---[J/kg/K]
+Reservoir Density,2700,			  			---[kg/m^3]
+Reservoir Thermal Conductivity,2.7,	  			---[W/m/K]
+
+***SURFACE TECHNICAL PARAMETERS***
+**********************************
+End-Use Option,2,			  			---[-] Electricity			  			---[-] Supercritcal ORC
+Circulation Pump Efficiency,.8,	  				---[-] between .1 and 1
+Utilization Factor,.5,			  			---[-] between .1 and 1
+Surface Temperature,15,		  				---[deg.C]
+Ambient Temperature,15,		 				---[deg.C]
+
+***FINANCIAL PARAMETERS***
+**************************
+Plant Lifetime,30,			  			---[years]
+Economic Model, 2,						--- Should be 1 (FCR model), 2 (Standard LCOE/LCOH model), or 3 (Bicycle model).
+Discount Rate, 0.075,						--- [-] Required if Standard LCOE/LCOH model is selected. See manual for details.
+Inflation Rate During Construction, 0,				--- [-]
+
+***CAPITAL AND O&M COST PARAMETERS***
+*************************************
+Well Drilling and Completion Capital Cost Adjustment Factor,1.21,	---[-] Use built-in correlations
+Well Drilling Cost Correlation,1,					---[-] Use built-in correlations
+Reservoir Stimulation Capital Cost Adjustment Factor,1.21,		---[-] Use built-in correlations
+Surface Plant Capital Cost Adjustment Factor,1.21,			---[-] Use built-in correlations
+Field Gathering System Capital Cost Adjustment Factor,1.21,		---[-] Use built-in correlations
+Exploration Capital Cost Adjustment Factor,1.21,			---[-] Use built-in correlations
+Wellfield O&M Cost Adjustment Factor,1.21,				---[-] Use built-in correlations
+Surface Plant O&M Cost Adjustment Factor,1.21,				---[-] Use built-in correlations
+Water Cost Adjustment Factor,1.21,					---[-] Use built-in correlations
+Electricity Rate,.0856,						---[$/kWh]
+
+
+***Simulation Parameters***
+***************************
+
+Print Output to Console,1,		  			---[-] Should be 0 (don't print results) or 1 (print results)
+Time steps per year,4,		  				---[1/year]
+

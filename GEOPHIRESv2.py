@@ -11,6 +11,7 @@ Created on Wed Dec  6 10:34:04 2017
 
 #import functions
 import math
+import streamlit
 import datetime
 import numpy as np
 import time
@@ -21,7 +22,7 @@ import sys
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # specify path of input file
-fname = os.path.join('Examples','DDU.txt')
+fname = os.path.join('Examples','DDUv2.txt')
 
 tic = time.time()
 #user-defined functions
