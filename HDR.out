@@ -5,34 +5,34 @@
                            ***SUMMARY OF RESULTS***
 
       End-Use Option = Direct-Use Heat
-      Average Direct-Use Heat Production (MWth)               6.16
-      Direct-Use heat breakeven price ($/MMBTU)              24.47
+      Average Direct-Use Heat Production (MWth)               9.86
+      Direct-Use heat breakeven price ($/MMBTU)               9.15
       Number of production wells                              1
       Number of injection wells                               1
       Flowrate per production well (kg/s)                    50.0
-      Well depth (m)                                       2300.0
+      Well depth (m)                                       2980.0
       Geothermal gradient (deg.C/km)                         30.0
 
 
                            ***ECONOMIC PARAMETERS***
 
       Economic Model = Standard Levelized Cost Model
-      Interest Rate (%)                                       7.50
+      Interest Rate (%)                                       5.00
       Accrued financing during construction (%)               0.00
       Project lifetime (years)                               30
-      Capacity factor (%)                                    50.0
+      Capacity factor (%)                                    90.0
 
                           ***ENGINEERING PARAMETERS***
 
-      Well depth (m)                                       2300.0
+      Well depth (m)                                       2980.0
       Water loss rate (%)                                     2.0
       Pump efficiency (%)                                    80.0
       Injection temperature (deg.C)                          50.0
       Production Wellbore heat transmission calculated with Ramey's model
-      Average production well temperature drop (deg.C)        1.2
+      Average production well temperature drop (deg.C)        2.1
       Flowrate per production well (kg/s)                    50.0
-      Injection well casing ID (inches)                       7.000
-      Produciton well casing ID (inches)                      7.000
+      Injection well casing ID (inches)                       8.500
+      Produciton well casing ID (inches)                      8.500
       Number of times redrilling                              0
 
 
@@ -45,54 +45,54 @@
 
                            ***RESERVOIR PARAMETERS***
 
-      Reservoir Model = 1-D Linear Heat Sweep Model
-      Bottom-hole temperature (deg.C)                        84.00
-      Fracture model = square fracture with known fracture height
-      Well seperation = fracture height (m)                 900.00
-      Fracture area (m^2)                                810000
-      Fracture separation calculated with reservoir volume and number of fractures as input
-      Number of fractures                                    20.00
-      Fracture separation (m)                                64.98
+      Reservoir Model = Multiple Parallel Fractures Model
+      Bottom-hole temperature (deg.C)                       104.40
+      Fracture model = rectangular fracture with known fracture height and width
+      Well seperation = fracture height (m)                  30.00
+      Fracture width (m)                                   1000.00
+      Fracture area (m^2)                                 30000
+      Number of fractures calculated with reservoir volume and fracture separation as input
+      Number of fractures                                   667.67
+      Fracture separation (m)                                50.00
       Reservoir volume (m^3)                         1000000000
-      Reservoir hydrostatic pressure (kPa)                22224.23
-      Plant outlet pressure (kPa)                           331.23
-      Production wellhead pressure (kPa)                    400.18
+      Reservoir hydrostatic pressure (kPa)                28681.16
+      Plant outlet pressure (kPa)                           394.45
+      Production wellhead pressure (kPa)                    463.40
       Productivity Index (kg/s/bar)                           5.00
       Injectivity Index (kg/s/bar)                            5.00
-      Reservoir density (kg/m^3)                           2700.00
-      Reservoir thermal conductivity (W/m/K)                  2.70
+      Reservoir density (kg/m^3)                           2800.00
+      Reservoir thermal conductivity (W/m/K)                  2.91
       Reservoir heat capacity (J/kg/K)                     1000.00
-      Reservoir porosity (%)                                  4.00
 
 
                           ***CAPITAL COSTS (M$)***
 
-      Drilling and completion costs                           9.39
-      Drilling and completion costs per well                  4.69
+      Drilling and completion costs                          13.16
+      Drilling and completion costs per well                  6.58
       Stimulation costs                                       1.83
-      Surface power plant costs                               2.68
-      Field gathering system costs                            1.60
-      Total surface equipment costs                           4.28
-      Exploration costs                                       5.74
-      Total capital costs                                    21.24
+      Surface power plant costs                               4.28
+      Field gathering system costs                            1.50
+      Total surface equipment costs                           5.78
+      Exploration costs                                       7.42
+      Total capital costs                                    28.18
 
 
                 ***OPERATING AND MAINTENANCE COSTS (M$/yr)***
 
-      Wellfield maintenance costs                             0.21
-      Power plant maintenance costs                           0.28
-      Water costs                                             0.02
-      Average annual pumping costs                            0.07
-      Total operating and maintenance costs                   0.58
+      Wellfield maintenance costs                             0.26
+      Power plant maintenance costs                           0.31
+      Water costs                                             0.03
+      Average annual pumping costs                            0.08
+      Total operating and maintenance costs                   0.68
 
 
                            ***POWER GENERATION RESULTS***
 
-      Initial direct-use heat production (MWth)               6.05
-      Average direct-use heat production (MWth)               6.16
-      Average annual heat production (GWh/yr)                27.00
-      Average injection well pump pressure drop (kPa)           1251.1
-      Average production well pump pressure drop (kPa)          1454.0
+      Initial direct-use heat production (MWth)               9.65
+      Average direct-use heat production (MWth)               9.86
+      Average annual heat production (GWh/yr)                77.72
+      Average injection well pump pressure drop (kPa)            835.0
+      Average production well pump pressure drop (kPa)           886.0
 
                                         ******************************
                                         *  POWER GENERATION PROFILE  *
@@ -100,37 +100,37 @@
   YEAR            THERMAL                    GEOFLUID                    PUMP                    NET
                   DRAWDOWN                  TEMPERATURE                  POWER                   HEAT
                                               (deg C)                    (MWe)                  (MWth)
-   0                1.0000                      82.15                    0.1754                 6.0531
-   1                1.0037                      82.46                    0.1753                 6.1110
-   2                1.0052                      82.58                    0.1753                 6.1333
-   3                1.0059                      82.64                    0.1753                 6.1448
-   4                1.0064                      82.68                    0.1753                 6.1524
-   5                1.0068                      82.71                    0.1752                 6.1580
-   6                1.0071                      82.73                    0.1752                 6.1624
-   7                1.0073                      82.75                    0.1752                 6.1660
-   8                1.0075                      82.76                    0.1752                 6.1690
-   9                1.0077                      82.78                    0.1752                 6.1716
-  10                1.0078                      82.79                    0.1752                 6.1739
-  11                1.0079                      82.80                    0.1752                 6.1759
-  12                1.0081                      82.81                    0.1752                 6.1777
-  13                1.0082                      82.82                    0.1752                 6.1793
-  14                1.0083                      82.83                    0.1752                 6.1808
-  15                1.0084                      82.84                    0.1752                 6.1822
-  16                1.0084                      82.84                    0.1752                 6.1835
-  17                1.0085                      82.85                    0.1752                 6.1847
-  18                1.0086                      82.85                    0.1752                 6.1858
-  19                1.0086                      82.86                    0.1752                 6.1868
-  20                1.0087                      82.86                    0.1752                 6.1878
-  21                1.0088                      82.87                    0.1752                 6.1887
-  22                1.0088                      82.87                    0.1752                 6.1896
-  23                1.0089                      82.88                    0.1752                 6.1904
-  24                1.0089                      82.88                    0.1752                 6.1912
-  25                1.0062                      82.66                    0.1754                 6.1491
-  26                1.0061                      82.65                    0.1754                 6.1471
-  27                1.0059                      82.64                    0.1754                 6.1450
-  28                1.0058                      82.63                    0.1754                 6.1428
-  29                1.0057                      82.61                    0.1754                 6.1406
-  30                1.0055                      82.60                    0.1754                 6.1383
+   0                1.0000                     101.19                    0.1126                 9.6530
+   1                1.0051                     101.71                    0.1125                 9.7503
+   2                1.0071                     101.91                    0.1124                 9.7881
+   3                1.0081                     102.01                    0.1124                 9.8077
+   4                1.0088                     102.08                    0.1123                 9.8206
+   5                1.0093                     102.13                    0.1123                 9.8302
+   6                1.0097                     102.17                    0.1123                 9.8377
+   7                1.0100                     102.20                    0.1123                 9.8438
+   8                1.0103                     102.23                    0.1123                 9.8490
+   9                1.0105                     102.25                    0.1123                 9.8534
+  10                1.0107                     102.27                    0.1123                 9.8573
+  11                1.0109                     102.29                    0.1123                 9.8608
+  12                1.0111                     102.31                    0.1123                 9.8639
+  13                1.0112                     102.32                    0.1123                 9.8668
+  14                1.0113                     102.34                    0.1123                 9.8693
+  15                1.0115                     102.35                    0.1123                 9.8717
+  16                1.0116                     102.36                    0.1122                 9.8739
+  17                1.0117                     102.37                    0.1122                 9.8759
+  18                1.0118                     102.38                    0.1122                 9.8778
+  19                1.0119                     102.39                    0.1122                 9.8796
+  20                1.0120                     102.40                    0.1122                 9.8813
+  21                1.0120                     102.41                    0.1122                 9.8828
+  22                1.0121                     102.42                    0.1122                 9.8843
+  23                1.0122                     102.42                    0.1122                 9.8858
+  24                1.0123                     102.43                    0.1122                 9.8871
+  25                1.0123                     102.44                    0.1122                 9.8884
+  26                1.0124                     102.44                    0.1122                 9.8896
+  27                1.0125                     102.45                    0.1122                 9.8908
+  28                1.0125                     102.46                    0.1122                 9.8919
+  29                1.0126                     102.46                    0.1122                 9.8930
+  30                1.0126                     102.47                    0.1122                 9.8940
 
 
                               ***************************************************************
@@ -139,34 +139,34 @@
   YEAR               HEAT                       HEAT                RESERVOIR            PERCENTAGE OF
                     PROVIDED                   EXTRACTED            HEAT CONTENT        TOTAL HEAT MINED
                    (GWh/year)                  (GWh/year)            (10^15 J)                 (%)
-   1                  26.6                        29.6                 91.69                   0.12
-   2                  26.8                        29.8                 91.59                   0.23
-   3                  26.9                        29.9                 91.48                   0.35
-   4                  26.9                        29.9                 91.37                   0.47
-   5                  27.0                        30.0                 91.26                   0.58
-   6                  27.0                        30.0                 91.16                   0.70
-   7                  27.0                        30.0                 91.05                   0.82
-   8                  27.0                        30.0                 90.94                   0.94
-   9                  27.0                        30.0                 90.83                   1.06
-  10                  27.0                        30.0                 90.72                   1.17
-  11                  27.0                        30.1                 90.61                   1.29
-  12                  27.1                        30.1                 90.51                   1.41
-  13                  27.1                        30.1                 90.40                   1.53
-  14                  27.1                        30.1                 90.29                   1.64
-  15                  27.1                        30.1                 90.18                   1.76
-  16                  27.1                        30.1                 90.07                   1.88
-  17                  27.1                        30.1                 89.96                   2.00
-  18                  27.1                        30.1                 89.86                   2.12
-  19                  27.1                        30.1                 89.75                   2.24
-  20                  27.1                        30.1                 89.64                   2.35
-  21                  27.1                        30.1                 89.53                   2.47
-  22                  27.1                        30.1                 89.42                   2.59
-  23                  27.1                        30.1                 89.31                   2.71
-  24                  27.1                        30.1                 89.21                   2.83
-  25                  27.1                        30.1                 89.10                   2.94
-  26                  26.9                        29.9                 88.99                   3.06
-  27                  26.9                        29.9                 88.88                   3.18
-  28                  26.9                        29.9                 88.77                   3.30
-  29                  26.9                        29.9                 88.67                   3.41
-  30                  26.9                        29.9                 88.56                   3.53
+   1                  76.5                        85.0                152.01                   0.20
+   2                  77.0                        85.6                151.71                   0.40
+   3                  77.3                        85.8                151.40                   0.61
+   4                  77.4                        86.0                151.09                   0.81
+   5                  77.5                        86.1                150.78                   1.01
+   6                  77.5                        86.1                150.47                   1.22
+   7                  77.6                        86.2                150.16                   1.42
+   8                  77.6                        86.3                149.85                   1.62
+   9                  77.7                        86.3                149.54                   1.83
+  10                  77.7                        86.3                149.23                   2.03
+  11                  77.7                        86.4                148.91                   2.24
+  12                  77.8                        86.4                148.60                   2.44
+  13                  77.8                        86.4                148.29                   2.64
+  14                  77.8                        86.4                147.98                   2.85
+  15                  77.8                        86.5                147.67                   3.05
+  16                  77.8                        86.5                147.36                   3.26
+  17                  77.9                        86.5                147.05                   3.46
+  18                  77.9                        86.5                146.74                   3.67
+  19                  77.9                        86.5                146.42                   3.87
+  20                  77.9                        86.6                146.11                   4.08
+  21                  77.9                        86.6                145.80                   4.28
+  22                  77.9                        86.6                145.49                   4.48
+  23                  77.9                        86.6                145.18                   4.69
+  24                  77.9                        86.6                144.87                   4.89
+  25                  78.0                        86.6                144.55                   5.10
+  26                  78.0                        86.6                144.24                   5.30
+  27                  78.0                        86.6                143.93                   5.51
+  28                  78.0                        86.6                143.62                   5.71
+  29                  78.0                        86.7                143.31                   5.92
+  30                  78.0                        86.7                142.99                   6.12
 
