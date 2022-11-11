@@ -40,7 +40,7 @@ Reservoir Porosity,.1,						---[-]
 **********************************
 End-Use Option,2,						---Direct Use Heat
 Circulation Pump Efficiency,.8,					---[-]
-Utilization Factor,1,					---[-]
+Utilization Factor,1,						---[-]
 End-Use Efficiency Factor,.9,					---[-]
 Surface Temperature,15,						---[deg.C]
 
