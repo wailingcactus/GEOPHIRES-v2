@@ -21,7 +21,7 @@ import sys
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # specify path of input file
-fname = os.path.join('Examples','example2.txt')
+fname = os.path.join('Examples','Cornell_Base.txt')
 
 tic = time.time()
 #user-defined functions
