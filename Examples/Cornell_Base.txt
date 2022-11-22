@@ -11,7 +11,7 @@ is used in direct-use heat application with reinjection temperature of 70deg.C
 *************************************
 
 Reservoir Model,1,						---Linear Heat Sweep Model
-Reservoir Depth,2.7,						---[km]
+Reservoir Depth,2.984,						---[km]
 Number of Segments,1,						---[-]
 Gradient 1,30,							---[deg.C/km]
 Maximum Temperature,500,					---[deg.C]
@@ -20,7 +20,7 @@ Number of Injection Wells,1,					---[-]
 Production Well Diameter,8.5,					---[inch]
 Injection Well Diameter,8.5,					---[inch]
 Ramey Production Wellbore Model,1,				---Should be 0 (disable) or 1(enable)
-Injection Wellbore Temperature Gain,0,				---[deg.C]
+Injection Wellbore Temperature Gain,0,			---[deg.C]
 Production Flow Rate per Well,50,				---[kg/s]
 Fracture Shape,2,						---Should be 1,2,3, or 4. See manual for option details
 Fracture Height,300,						---[m]
@@ -55,16 +55,16 @@ Inflation Rate During Construction,0,				---[-]
 ***Capital and O&M Cost Parameters***
 *************************************
 
-Well Drilling and Completion Capital Cost Adjustment Factor,1.21,---[M$/well] Use built-in correlations
-Well Drilling Cost Correlation,3,				---[-]
-Reservoir Stimulation Capital Cost Adjustment Factor,1.21, 	---[-] Use built-in correlations
-Surface Plant Capital Cost Adjustment Factor,1.21,		---[-] Use built-in correlations
-Field Gathering System Capital Cost Adjustment Factor,1.21,	---[-] Use built-in correlations
-Exploration Capital Cost Adjustment Factor,1.21,		---[-] Use built-in correlations
-Wellfield O&M Cost Adjustment Factor,1.21,			---[-] Use built in correlations
-Surface Plant O&M Cost Adjustment Factor,1.21,			---[-] Use built-in correlations
-Water Cost Adjustment Factor,1.21,				---[-] Use built-in correlations
-Electricity Rate,.2,						---[$/kWh]
+Well Drilling and Completion Capital Cost Adjustment Factor,1.21,	---[M$/well] Use built-in correlations
+Well Drilling Cost Correlation,3,						---[-]
+Reservoir Stimulation Capital Cost Adjustment Factor,1.21, 		---[-] Use built-in correlations
+Surface Plant Capital Cost Adjustment Factor,1.21,			---[-] Use built-in correlations
+Field Gathering System Capital Cost Adjustment Factor,1.21,		---[-] Use built-in correlations
+Exploration Capital Cost Adjustment Factor,1,				---[-] Use built-in correlations
+Wellfield O&M Cost Adjustment Factor,1,					---[-] Use built in correlations
+Surface Plant O&M Cost Adjustment Factor,1,				---[-] Use built-in correlations
+Water Cost Adjustment Factor,1.21,						---[-] Use built-in correlations
+Electricity Rate,.1538,								---[$/kWh]
 
 ***Simulation Parameters***
 ***************************
