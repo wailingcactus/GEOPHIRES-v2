@@ -6,7 +6,7 @@
 
       End-Use Option = Direct-Use Heat
       Average Direct-Use Heat Production (MWth)               8.32
-      Direct-Use heat breakeven price ($/MMBTU)              15.60
+      Direct-Use heat breakeven price ($/MMBTU)              14.27
       Number of production wells                              1
       Number of injection wells                               1
       Flowrate per production well (kg/s)                    50.0
@@ -72,17 +72,17 @@
       Surface power plant costs                               3.62
       Field gathering system costs                            1.52
       Total surface equipment costs                           5.13
-      Exploration costs                                       8.49
-      Total capital costs                                    31.03
+      Exploration costs                                       7.02
+      Total capital costs                                    29.56
 
 
                 ***OPERATING AND MAINTENANCE COSTS (M$/yr)***
 
-      Wellfield maintenance costs                             0.29
-      Power plant maintenance costs                           0.30
+      Wellfield maintenance costs                             0.24
+      Power plant maintenance costs                           0.25
       Water costs                                             0.00
-      Average annual pumping costs                            0.14
-      Total operating and maintenance costs                   0.73
+      Average annual pumping costs                            0.11
+      Total operating and maintenance costs                   0.60
 
 
                            ***POWER GENERATION RESULTS***

@@ -60,11 +60,11 @@ Well Drilling Cost Correlation,3,				---[-]
 Reservoir Stimulation Capital Cost Adjustment Factor,1.21, 	---[-] Use built-in correlations
 Surface Plant Capital Cost Adjustment Factor,1.21,		---[-] Use built-in correlations
 Field Gathering System Capital Cost Adjustment Factor,1.21,	---[-] Use built-in correlations
-Exploration Capital Cost Adjustment Factor,1.21,		---[-] Use built-in correlations
-Wellfield O&M Cost Adjustment Factor,1.21,			---[-] Use built in correlations
-Surface Plant O&M Cost Adjustment Factor,1.21,			---[-] Use built-in correlations
+Exploration Capital Cost Adjustment Factor,1,			---[-] Use built-in correlations
+Wellfield O&M Cost Adjustment Factor,1,				---[-] Use built in correlations
+Surface Plant O&M Cost Adjustment Factor,1,			---[-] Use built-in correlations
 Water Cost Adjustment Factor,1.21,				---[-] Use built-in correlations
-Electricity Rate,.2,						---[$/kWh]
+Electricity Rate,.1538,						---[$/kWh]
 
 ***Simulation Parameters***
 ***************************
